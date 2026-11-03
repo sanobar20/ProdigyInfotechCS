@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Task outputs and sensitive captures
+keylog.txt
+*.log
+*.pcap
+captured_packets*
+encrypted_*
+decrypted_*
+
+# Secrets
+.env
+*.pem
+*.key
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
